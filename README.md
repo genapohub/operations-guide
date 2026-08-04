@@ -29,12 +29,14 @@
 
 **方式一：克隆到 skills 目录**
 ```bash
-git clone https://github.com/genapohub/operations-guide.git ~/.workbuddy/skills/operations-guide
+git clone https://github.com/genapohub/operations-guide.git
+zip -r operations-guide.zip operations-guide/ ~/.workbuddy/skills/operations-guide
 ```
 
 **方式二：ZIP导入**
 ```bash
 git clone https://github.com/genapohub/operations-guide.git
+zip -r operations-guide.zip operations-guide/
 zip -r operations-guide.zip operations-guide/
 ```
 然后在 WorkBuddy 桌面端 → **技能市场** → **添加技能/上传技能** → **点击"跳过检测，直接安装"**。
@@ -44,6 +46,7 @@ zip -r operations-guide.zip operations-guide/
 **ZIP 导入**
 ```bash
 git clone https://github.com/genapohub/operations-guide.git
+zip -r operations-guide.zip operations-guide/
 ```
 然后在 Trae → **设置** → **Rules & Skills** → **创建** → 上传 `operations-guide.zip`。
 
@@ -51,10 +54,12 @@ git clone https://github.com/genapohub/operations-guide.git
 
 ```bash
 # 克隆到 skills 目录
-git clone https://github.com/genapohub/operations-guide.git ~/.codex/skills/operations-guide
+git clone https://github.com/genapohub/operations-guide.git
+zip -r operations-guide.zip operations-guide/ ~/.codex/skills/operations-guide
 
 # 或使用 cc switch (推荐)
-git clone https://github.com/genapohub/operations-guide.git ~/.cc-switch/skills/operations-guide
+git clone https://github.com/genapohub/operations-guide.git
+zip -r operations-guide.zip operations-guide/ ~/.cc-switch/skills/operations-guide
 ```
 
 重启 CC Switch客户端/Codex客户端 后自动发现。也可以在对话中输入 `$operations-guide` 手动调用。
@@ -62,7 +67,8 @@ git clone https://github.com/genapohub/operations-guide.git ~/.cc-switch/skills/
 ### Cursor
 ```bash
 # 克隆到 skills 目录
-git clone https://github.com/genapohub/operations-guide.git ~/.cursor/skills-cursor/operations-guide
+git clone https://github.com/genapohub/operations-guide.git
+zip -r operations-guide.zip operations-guide/ ~/.cursor/skills-cursor/operations-guide
 ```
 
 重启 Cursor客户端 后自动发现。也可以在对话中输入 `$operations-guide` 手动调用。
