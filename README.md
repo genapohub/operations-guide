@@ -37,7 +37,6 @@ zip -r operations-guide.zip operations-guide/ ~/.workbuddy/skills/operations-gui
 ```bash
 git clone https://github.com/genapohub/operations-guide.git
 zip -r operations-guide.zip operations-guide/
-zip -r operations-guide.zip operations-guide/
 ```
 然后在 WorkBuddy 桌面端 → **技能市场** → **添加技能/上传技能** → **点击"跳过检测，直接安装"**。
 
