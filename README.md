@@ -29,8 +29,7 @@
 
 **方式一：克隆到 skills 目录**
 ```bash
-git clone https://github.com/genapohub/operations-guide.git
-zip -r operations-guide.zip operations-guide/ ~/.workbuddy/skills/operations-guide
+git clone https://github.com/genapohub/operations-guide.git ~/.workbuddy/skills/operations-guide
 ```
 
 **方式二：ZIP导入**
@@ -53,12 +52,10 @@ zip -r operations-guide.zip operations-guide/
 
 ```bash
 # 克隆到 skills 目录
-git clone https://github.com/genapohub/operations-guide.git
-zip -r operations-guide.zip operations-guide/ ~/.codex/skills/operations-guide
+git clone https://github.com/genapohub/operations-guide.git ~/.codex/skills/operations-guide
 
 # 或使用 cc switch (推荐)
-git clone https://github.com/genapohub/operations-guide.git
-zip -r operations-guide.zip operations-guide/ ~/.cc-switch/skills/operations-guide
+git clone https://github.com/genapohub/operations-guide.git ~/.cc-switch/skills/operations-guide
 ```
 
 重启 CC Switch客户端/Codex客户端 后自动发现。也可以在对话中输入 `$operations-guide` 手动调用。
@@ -66,8 +63,7 @@ zip -r operations-guide.zip operations-guide/ ~/.cc-switch/skills/operations-gui
 ### Cursor
 ```bash
 # 克隆到 skills 目录
-git clone https://github.com/genapohub/operations-guide.git
-zip -r operations-guide.zip operations-guide/ ~/.cursor/skills-cursor/operations-guide
+git clone https://github.com/genapohub/operations-guide.git ~/.cursor/skills-cursor/operations-guide
 ```
 
 重启 Cursor客户端 后自动发现。也可以在对话中输入 `$operations-guide` 手动调用。
