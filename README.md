@@ -41,17 +41,17 @@ zip -r operations-guide.zip operations-guide/
 ```
 然后在 Trae → **设置** → **Rules & Skills** → **创建** → 上传 `operations-guide.zip`。
 
-### Codex
+### Codex / ZCode
 
 ```bash
 # 克隆到 skills 目录
 git clone https://github.com/genapohub/operations-guide.git ~/.codex/skills/operations-guide
 
-# 或使用 cc switch (推荐)
-git clone https://github.com/genapohub/operations-guide.git ~/.cc-switch/skills/operations-guide
+# ZCode
+git clone https://github.com/genapohub/operations-guide.git ~/.zcode/skills/operations-guide
 ```
 
-若选 CC Switch 克隆后需在cc switch客户端-技能中心里导入技能，选中Codex等工具，重启Codex客户端后在对话中输入 $operations-guide 手动调用。
+重启 Codex / ZCode 客户端后自动发现。也可以在对话中输入 `$operations-guide` 手动调用。
 
 ### Cursor
 ```bash
